@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogIn Page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+</head>
+<body bgcolor="Grey">
+	<div id="Left">
+	</div>
+	<div id="Right">
+		<center>
+			<h1>Hotel Login Page</h1>
+			<p>Make greatness happen, build great relationships along the way. That's our motto here at Easy Order and we're glad to have the clients we do.</p>
+			
+		</center>
+		<div id="main-wrap">
+			<center><img src="images/hotel.jpg" class="images"></center>
+		<form class="form" method="POST" action="HotelLogIn.php">
+			<label><strong>Username</strong></label><br>
+			<input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="HLusername" type="text" class="inputvalues" placeholder="Enter your Username" required><br> 
+			<label><strong>Password</strong></label><br>
+			<input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" type="Password" name="HLpassword" class="inputvalues" placeholder="Enter your Password" required><br>
+			<input name="HLSubmit" type="submit" id="loginbtn" value="Login"></a><br>
+			<a href="/IWP/HotelReg/HotelReg.html"><input type="Button" id="regbtn" value="Register"></a><br><br>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
+
+

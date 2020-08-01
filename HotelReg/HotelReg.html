@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regestration Page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+</head>
+<body bgcolor="Grey">
+	<div id="LeftReg">
+	</div>
+	<div id="Right">
+		<center>
+			<h1>Hotel Registration Page</h1>
+			<p>Register to serve</p>
+			<p> the delicious foods</p>
+		</center>
+		<div id="main-wrap">
+			<center><img src="Images/hotel.jpg" class="images"></center>
+		<form class="form" method="POST" action="HotelReg.php">
+			<label><strong>Hotel Name:</strong></label>	
+			<input type="text" name="HName" placeholder="Hotel Name" class="inputvalues" required><br>
+			<label><strong>Address</strong>
+				<textarea class="inputvalues" name="addr" rows="4" cols="20" class="addr" required></textarea><br>
+			</label>
+			<label>
+				<strong>Phone No:</strong><br>
+				<strong>Phone No 1:</strong>
+				<input type="text" pattern="[0-9].{9}" name="pno1" placeholder="Phone No 1" class="PNO" required>	
+				<strong>Phone No 2:</strong>
+				<input type="text"  pattern="[0-9].{9}" name="pno2" placeholder="Phone No 2" class="PNO" required><br>
+			</label>
+			<label><strong>Email Id:</strong></label>
+			<input placeholder="Email Id" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="Email" name="email" required class="inputvalues"><br>
+			<label ><strong>Username:</strong></label>
+			<input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" type="text" name="HUsername" placeholder="Username" class="inputvalues" required><br>
+			<label for="Password"><strong>Password:</strong></label>
+			<input type="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="HPassword" placeholder="Password" class="inputvalues" required><br>
+			<label for="ConfirmPassword"><strong>Confirm Password:</strong></label>
+			<input type="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" name="HCPassword" placeholder="Confirm Password" class="inputvalues" required><br>
+			<input  type="Submit" name="HSubmit" id="loginbtn" value="Sign Up"></a><br>
+			<a href="/IWP/Homepage/Homepage.php"><input  type="Button" id="gbhbtn" value="Go Back To Home Page"></a><br>	
+		</form>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+

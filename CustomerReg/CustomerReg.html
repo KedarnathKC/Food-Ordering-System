@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Regestration Page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+</head>
+<body bgcolor="Grey">
+	<div id="LeftCReg">
+	</div>
+	<div id="Right">
+		<center>
+			<h1>Customer Registration Page</h1>
+			<p>Register to experience</p>
+			<p> the delicious foods</p>
+		</center>
+		<div id="main-wrap">
+			<center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfg_pQW_WZXLQ2nSShrTMK-t9ldNgLVoA7b95utd9TbYpSmVX9g" class="img1"></center><br><br>	
+			<form class="form" method="POST" action="CustomerReg.php">
+				<label><strong>Customer Name:</strong></label>	
+				<input name="CName" type="text" placeholder="Customer Name" required class="inputvalues" ><br>
+				<label ><strong>Address Line 1:</strong></label>
+				<input name="addrl1" type="text" class="inputvalues" required placeholder="Address line 1" ><br>
+				<label><strong>Address Line 2:</strong></label>
+				<input name="addrl2" type="text" class="inputvalues" required placeholder="Address line 2" ><br>
+				<label><strong>Address Line 3:</strong></label>
+				<input name="addrl3" type="text" class="inputvalues" required placeholder="Address line 3" ><br>
+				<label><strong>City:</strong></label>
+				<input name="city" type="text" required class="inputvalues" placeholder="City" ><br>
+				<label><strong>Pindcode:</strong></label> 
+				<input name="pincode" pattern="[0-9].{5}" type="text"  required class="inputvalues" placeholder="Pincode" ><br>
+				<label for="State"><strong>State:</strong></label>
+				<input name="state" type="text" required class="inputvalues" placeholder="State" ><br>
+				<label>
+					<strong>Phone No:</strong><br>
+					<strong>Phone No 1:</strong>
+					<input pattern="[0-9].{9}" name="pno1" type="text" required placeholder="Phone No 1" class="PNO" >	
+					<strong>Phone No 2:</strong>
+					<input pattern="[0-9].{9}" name="pno2" type="text" required placeholder="Phone No 2" class="PNO" ><br>
+				</label>
+				<label><strong>Email Id:</strong></label>
+				<input name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="Email" required class="inputvalues" placeholder="Email id" ><br>
+				<label><strong>Username:</strong></label>
+				<input name="CUsername" type="text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Username" class="inputvalues" ><br>
+				<label><strong>Password:</strong></label>
+				<input name="CPassword" type="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Password" class="inputvalues" ><br>
+				<label for="ConfirmPassword"><strong>Confirm Password:</strong></label>
+				<input name="CCPassword" type="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="Confirm Password" class="inputvalues" ><br>
+				<input name="CSubmit" type="Submit" id="loginbtn" value="Sign Up"><br>	
+				<a href="/IWP/Homepage/Homepage.html"><input  type="Button" id="gbhbtn" value="Go Back To Home Page"></a><br>	
+			</form>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

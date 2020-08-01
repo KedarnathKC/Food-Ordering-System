@@ -1,0 +1,197 @@
+#head{
+	width:100%;
+	height:100px;
+	/*background-color: yellow;*/
+}
+#icon{
+	width: 40%;
+	height:100px;
+	float: left;
+	background-image: url(..\\Images\\ICON1.png);
+	background-size: 75% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.Link{
+	/*border:1px solid black; */
+	float:right;
+	width:15%;
+	/*background-color: red;*/
+	display: inline-block;
+	height: 60px;
+	margin-top:20px; 
+	margin-left:10px; 
+}
+.dropbtn{
+	/*background-color: #4CAF50;*/
+	background-image: url(..\\Images\\Background2.jpg);
+	border-color: solid black;
+  	color: white;
+  	padding: 16px;
+  	margin-top: 5px;
+  	width:100%;
+}
+.dropdown-content{
+	display: none;	
+  	position: absolute;
+  	background-color: black;
+ 	width: 15%;
+}
+.dropdown-content a {
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all .3s ease-in-out;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	transform: scale(1.2);
+}
+.Link:hover .dropdown-content {
+	display: block;
+}
+
+.Link:hover .dropbtn {background-color: #3e8e41;} 
+#heading{
+	margin-top: 20px;
+	float: left;
+	width:100%;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+#main{
+	margin-top: 40px;
+	width:100%;
+	float: left;
+}
+.type{
+	float: left;
+	width:100%;
+	margin-bottom: 20px;
+	
+}
+.type1{
+	transition: all .60s ease-in-out;
+
+	float:left;
+	padding-top: 10px;
+	text-align: center;
+	width:250px;
+	height:30px;
+	background-color: green;
+	color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.type1:hover{
+	width:50%;
+}
+.typeS{
+	float: left;
+	margin-left: 5%;
+	width:80%;
+	margin-bottom: 20px;
+	
+}
+.type1S{
+	transition: all .60s ease-in-out;
+	float:left;
+	padding-top: 10px;
+	text-align: center;
+	width:250px;
+	height:30px;
+	background-color: green;
+	color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.main-order{
+	margin-top: 25px;
+	width:80%;
+	margin-left: 10%;
+	float: left;
+}
+.items{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+	width:14%;
+	padding-left: 1%;
+	margin-left:4%;
+	background-color: white;
+	float: left;
+}/*
+.iname{
+	width:80%;
+	color:blue;
+	font-weight: bolder;
+}
+.iname:hover{
+	box-shadow: 2px 2px 10px grey;
+	color:red;
+}*/
+
+.oid{
+	width:90%;
+	color:blue;
+	font-weight: bolder;
+	border:none;
+	font-size:14px;
+}
+.oid:hover{
+	box-shadow: 2px 2px 5px grey;
+	
+}
+.quantity{
+	width:90%;
+	font-weight: bold;
+	color:blue;
+}
+.quantity:hover{
+	box-shadow: 2px 2px 5px grey;
+}
+.orders{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+	width:14%;
+	padding-left: 1%;
+	margin-left:4%;
+	background-color: white;
+	float: left;
+}
+.select{
+	width:90%;
+	color:blue;
+	font-weight: bolder;
+	margin-bottom: 25px;
+	border:none;
+	font-size:14px;
+
+}
+.select:hover{
+	box-shadow: 2px 2px 5px grey;
+}
+.option{
+	color:black;
+	transition:all .3s ease-in-out;
+	font-size:14px;
+}
+		
+.orders input[type='Submit']{
+	background-color: white;
+	width:90%;
+	color:blue;
+	font-weight: bolder;
+	box-shadow: 2px 2px 10px grey;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+.label{
+	width:90%;
+	color:red;font-weight:bolder;box-shadow: 2px 2px 5px grey;
+}

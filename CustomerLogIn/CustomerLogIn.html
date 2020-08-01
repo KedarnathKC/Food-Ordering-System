@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+</head>
+<body bgcolor="Grey">
+	<div id="Left">
+	</div>
+	<div id="Right">
+		<center>
+			<h1>Customer Login Page</h1>
+			<p>Log Out oF the past n</p>
+			<p>LogIn to the Future.</p>
+			
+		</center>
+		<div id="main-wrap">
+			<center><img src="Images/CustomerLogin.jpg" class="images"></center>
+		<form class="form" method="POST" action="CustomerLogIn.php">
+			<label><strong>Username</strong></label><br>
+			<input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" type="text" name="CLusername" class="inputvalues" placeholder="Enter your Username" required><br> 
+			<label><strong>Password</strong></label><br>
+			<input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" type="Password" name="CLpassword" class="inputvalues" placeholder="Enter your Password" required><br>
+			<input type="Submit" name="CLSubmit" id="loginbtn" value="Login"></a><br>
+			<a href="/IWP/CustomerReg/CustomerReg.html"><input type="Button" id="regbtn" value="Register"></a><br><br> 
+		</form>
+		</div>
+	</div>
+</body>
+</html>

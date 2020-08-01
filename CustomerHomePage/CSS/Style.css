@@ -1,0 +1,165 @@
+#head{
+	width:100%;
+	height:100px;
+	/*background-color: yellow;*/
+}
+#icon{
+	width: 40%;
+	height:100px;
+	float: left;
+	background-image: url(..\\Images\\ICON1.png);
+	background-size: 75% 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.Link{
+	/*border:1px solid black; */
+	float:right;
+	width:15%;
+	/*background-color: red;*/
+	display: inline-block;
+	height: 60px;
+	margin-top:20px; 
+	margin-left:10px; 
+}
+.dropbtn{
+	/*background-color: #4CAF50;*/
+	background-image: url(..\\Images\\Background2.jpg);
+	border-color: solid black;
+  	color: white;
+  	padding: 16px;
+  	margin-top: 5px;
+  	width:100%;
+}
+.dropdown-content{
+	display: none;	
+  	position: absolute;
+  	background-color: black;
+ 	width: 15%;
+}
+.dropdown-content a {
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  transition: all .3s ease-in-out;
+  text-align: center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	transform: scale(1.2);
+}
+.Link:hover .dropdown-content {
+	display: block;
+}
+
+.Link:hover .dropbtn {background-color: #3e8e41;} 
+
+
+
+#right{
+	float: left;
+	width:74%;
+	margin-top:20px; 
+	/*height: 100px;*/
+}
+#left{
+	margin-top:20px;
+	border-left: 2px solid grey;
+	padding-left: 10px;
+	float:right;
+	width:25%;	
+	margin-bottom: 20px;
+}
+#left h1{
+	margin-top: 0px;
+}
+#top{
+	margin-top: 0px;
+	/*background-color: red;*/	
+	float:left;
+	width:100%;
+	height: 60px;
+	margin-bottom: 10px;
+}
+#type2{
+	float: left;
+	width:100%;
+	
+}
+#type21{
+	transition: all .60s ease-in-out;
+	float:left;
+	padding-top: 10px;
+	text-align: center;
+	width:210px;
+	height:40px;
+	background-color: orange;
+	color: white;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 15px;
+}
+#type21:hover{
+	width:100%;
+}
+#bottom{
+
+	/*background-color: yellow;*/
+	float:left;
+	width:100%;
+}
+.ord{
+	margin-top:25px; 
+	width:100%;
+	height: 100px;
+	background-color: white;
+}
+.hname{
+	/*background-color: red;*/
+	width:98%;
+	padding-top: 5px;
+	padding-bottom:  5px;
+	padding-left: 2%;
+	float: left;
+}
+.iname1{
+	width: 47%;
+	float: left;
+	padding-top: 5px;
+	padding-bottom:  5px;
+	padding-left: 2%;
+	margin-right: 1%;
+}
+.iname1:hover{
+	color:red;
+	font-weight: bold;
+}
+
+.quantity{
+	text-align: center;
+	width: 46%;
+	float: left;
+	margin-left: 1%;
+	padding-top: 5px;
+	padding-bottom:  5px;
+	padding-right: 2%;
+}
+
+.quantity:hover{
+	color:red;
+	font-weight: bold;
+}
+.total{
+	width:47%;
+	padding-top: 5px;
+	padding-bottom:  5px;
+	padding-left: 2%;
+	float: left;
+}
+.total:hover{
+	color:blue;
+	font-weight: bold;
+}	
